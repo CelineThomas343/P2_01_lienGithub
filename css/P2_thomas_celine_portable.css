@@ -1,0 +1,211 @@
+
+/*Police  du corps*/
+@font-face
+    {
+        font-family: "Raleway";
+    }
+
+body
+    {
+        font-family: "Raleway";
+        font-size: 1.4em;
+        color: black;
+    }
+
+a
+    {
+        text-decoration: none;
+    }
+
+h1
+    {
+        display: block;
+        margin-right: 30px;
+        margin-left: 30px;
+        font-size: 1.6em;
+        font-weight: bold;
+        text-align: justify-all;
+        margin-bottom: 1px;
+    }
+
+h2
+    {
+        margin-right: 30px;
+        margin-left: 30px;
+        font-size: 1.4em;
+        text-align: justify;
+    }
+
+p
+    {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+img
+    {
+        width: 450px;
+        height: 450px;
+        text-align: right;
+    }
+
+ul
+    {
+        list-style-type: none;
+    }
+
+#button-recherche span
+    {
+        display: none;
+    }
+
+/*Taille du logo*/
+
+#logo
+    {
+        margin: 30px;
+        width: 120px;
+        height: 60px;
+    }
+
+/*position de la navigation*/
+nav
+    {
+        bottom: auto;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+/*mise en forme de la navigation*/
+.inscription a
+    {
+        display: inline;
+        color: #0065FC;
+        margin: 10px; /*marge externe*/
+        font-weight: bold; /*police "gras"*/
+        position: absolute; /*positionnement au-dessus par rapport aux autres*/
+        top: 40px; right:  20px;
+    }
+
+.inscription
+    {
+        margin: 0;
+    }
+
+.hebergement
+    {
+        border-bottom: 4px #0065FC solid; /*barre en-dessous*/
+        padding-bottom: 12px;
+        text-align: center;
+        width: 50%;
+        margin: 0;
+    }
+
+.activites
+    {
+        border-bottom: 4px #F2F2F2 solid;
+        padding-bottom: 12px;
+        text-align: center;
+        width: 50%;
+        margin: 0;
+    }
+
+/*Recherche*/
+#recherche
+    {
+        flex-direction: row;
+        text-align: center;
+        padding: 0px;
+        width: 100%;
+        border: 1px #F2F2F2 solid;
+        padding-top: 30px;
+    }
+
+#ville
+    {
+        width: 80%;
+        border: none;
+    }
+
+.fa-map-marker-alt
+    {
+        color: black;
+        border: 1px #F2F2F2 solid;
+        background-color: #F2F2F2;
+        border-radius: 5px;
+    }
+
+#button-recherche
+    {
+        background-color: #0065FC;
+        border: 1px #0065FC solid;
+        border-radius: 5px;
+    }
+
+.fa-search
+    {
+        color: white;
+        background-color: #0065FC;
+    }
+
+/*Filtres*/
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog
+    {
+        color: #0065FC;
+        background-color: #DEEBFF;
+        border-radius: 50px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }  
+
+#economie, #familial, #romantique, #animaux
+    {
+        border:  1px #F2F2F2 solide;
+        border-radius: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+/*Informations*/
+
+.fa-info-circle
+    {
+        color: #FFFFFF;
+        background-color: #0065FC;
+        border: 1px #F2F2F2 solid;
+        border-radius: 50px;
+    }
+/*mise en page des figures*/
+article
+    {
+        width: 700px;
+        order: 2;
+        margin: auto;
+        align-items: column;
+        flex-wrap: wrap;
+    }
+
+aside
+    {
+        width: 900px;
+        order: 1;
+        margin: auto;
+        flex-direction: column;
+    }
+
+section
+    {
+        width: 900px;
+        order: 3;
+        margin: auto;
+        align-items: column;
+    }
+
+/*pied de page*/
+footer
+    {
+        display:flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }

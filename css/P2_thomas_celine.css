@@ -1,0 +1,80 @@
+html
+/*flexibilité de la page*/ 
+{
+    font-family: "Raleway";
+}
+
+
+#logo, nav
+{
+    position:  top;
+}
+
+/*position de la navigation sur PC*/
+nav
+{
+    bottom: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+/*police*/
+.hebergement a, .inscription a
+{
+    color: #0065FC;
+}
+
+.activites a
+{
+    color: black;
+}
+
+h1, p
+{
+    color:black;
+}
+
+/*positionnement*/
+.fas fa-map-marker-alt, .recherche
+{
+    display:flex;
+    flex-direction: row;
+}
+
+article, aside
+    {
+        display:flex;
+        flex-direction: row;
+    }
+    article
+    {
+        width: 69%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    aside
+    {
+        display: flex;
+        align-items: column;
+    }
+
+/*pieds de page*/
+footer
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+footer div
+{}
+
+#filtres
+{
+    display: inline;
+}
